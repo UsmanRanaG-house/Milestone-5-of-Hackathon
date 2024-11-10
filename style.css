@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0px;
+    background-color: #c3e8bd;
+}
+h1 {
+    text-align:center ;
+    color: #44773c;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #c3e8bd;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid #4a8541;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #def7da;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #44773c;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: #295c21;
+}
+input,textarea {
+    width: calc(100% - 2px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #3f7436;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: #487553;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;}
+    button:hover{
+        background-color: #52a769;
+        color: #ecfff2;
+    }
+    #resumeOutput{
+        max-width: 600px;
+        padding: 20px;
+        margin: auto;
+        border: 10px solid #3f7436;
+        border-radius: 8px;
+        background-color: #def7da;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    }
+    #resumeOutput h2 {
+        color: #295c21;
+    }
+    .profilePicture {
+        display: block;
+        margin: 0 auto;
+        border: 6px solid #295c21;
+        box-shadow: 0 4px 8px rgba(11,7,211,0.5);
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 500%;
+    }
+    .download-link {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        text-decoration: none; 
+        border-radius: 5px; 
+        background-color: #487553;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;}
+    
+    .download-link:hover {
+        background-color: #52a769;
+        color: #ecfff2;
+    }
+    
